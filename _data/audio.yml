@@ -1,53 +1,117 @@
-- title: "Blarsa - Tonight"
-  file_name: blarsa--tonight.mp3
-  release_date: "2009 July"
-  type: original
-  length: "04:00"
-
-- title: "Blarsa - One Night Stand"
-  file_name: blarsa--one_night_stand.mp3
-  release_date: "2009 June"
-  type: original
-  length: "03:41"
-
-- title: "Blarsa - You Make Me"
-  file_name: blarsa--you_make_me.mp3
-  release_date: "2009 June"
-  type: original
-  length: "03:45"
-
-- title: "Blarsa - Garden Party"
-  file_name: blarsa--garden_party.mp3
-  release_date: "2009 January"
-  type: fun
-  length: "00:58"
-
 - title: "Jónsi - Around Us (Blarsa Remix)"
   file_name: jonsi--around_us--blarsa_remix.mp3
   release_date: "2010 June"
   type: remix
   length: "04:09"
 
+- title: "Blarsa - Timber 2010"
+  description: "Theme song for the 2010 Timber russebuss."
+  file_name: blarsa--timber_2010.mp3
+  release_date: "2010 April"
+  type: russebuss
+  length: "04:00"
+
+- title: "Blarsa - The American Way 2010"
+  description: "Theme song for the 2010 The American Way russebuss."
+  file_name: blarsa--the_american_way_2010.mp3
+  release_date: "2010 April"
+  type: russebuss
+  length: "04:46"
+
+- title: "Blarsa - Fearless 2010"
+  description: "Theme song for the 2010 Fearless russebuss."
+  file_name: blarsa--fearless_2010.mp3
+  release_date: "2010 April"
+  type: russebuss
+  length: "04:29"
+
+- title: "Blarsa - Tribute 2010"
+  description: "Theme song for the 2010 Tribute russebuss."
+  file_name: blarsa--tribute_2010.mp3
+  release_date: "2010 April"
+  type: russebuss
+  length: "04:54"
+
+- title: "Bjørn Muri - Yes Man (Blarsa Remix)"
+  description: "Produced in Feb. 2010 for a remix contest; we didn't win :c"
+  file_name: bjorn_muri--yes_man--blarsa_remix.mp3
+  release_date: "unreleased"
+  type: remix
+  length: "03:05"
+
+- title: "Blarsa - Tonight"
+  description: "First project in Ableton Live. Inspired by the sounds of Justice and Wolfgang Gartner."
+  file_name: blarsa--tonight.mp3
+  release_date: "2009 July"
+  type: original
+  length: "04:00"
+
+- title: "Blarsa - One Night Stand"
+  description: "Originally started as a vocoder test."
+  file_name: blarsa--one_night_stand.mp3
+  release_date: "2009 June"
+  type: original
+  length: "03:41"
+
+- title: "Blarsa - You Make Me"
+  description: "Something from our soft side."
+  file_name: blarsa--you_make_me.mp3
+  release_date: "2009 June"
+  type: original
+  length: "03:45"
+
 - title: "Sarah Brightman ft Andrea Bocelli - Time To Say Goodbye (Blarsa Remix)"
+  description: "What happens after one of us (Lars) drunkenly sings a song on Skype."
   file_name: sarah_brightman_ft_andrea_bocelli--time_to_say_goodbye--blarsa_remix.mp3
   release_date: "2009 December"
   type: remix
   length: "05:08"
 
+- title: "Blarsa - Pseudonym 2010"
+  description: "Theme song for the 2010 Pseudonym russebuss."
+  file_name: blarsa--pseudonym_2010.mp3
+  release_date: "2009 November"
+  type: russebuss
+  length: "03:36"
+
+- title: "Blarsa - Midlertidig 2010"
+  description: "Theme song for the 2010 Midlertidig russebuss."
+  file_name: blarsa--midlertidig_2010.mp3
+  release_date: "2009 November"
+  type: russebuss
+  length: "03:38"
+
 - title: "Shop Boyz - Party Like A Rock Star (Blarsa Remix)"
+  description: "The result of installing a new DAW and playing with it over night."
   file_name: shop_boyz--rock_star--blarsa_remix.mp3
   release_date: "2009 May"
   type: remix
   length: "03:23"
 
 - title: "Maskinen - Alla Som Inte Dansar (Blarsa Remix)"
+  description: "Experimental electro house / hiphop tune featuring Swedish rap group Maskinen. The main lyrics, 'Alla som inte dansar är våldtäktsmän, Gäller hela kvällen mellan tolv och fem' means 'Anybody who does not dance is a rapist, and that counts between midnight to five in the morning'."
   file_name: maskinen--alla_som_inte_dansar--blarsa_remix.mp3
   release_date: "2009 March"
   type: remix
   length: "03:09"
 
 - title: "Buddy Baker - Grim Grinning Ghosts (Blarsa Remix)"
+  description: "Unfinished remix of Grim Grinning Ghosts from Disneyland's Haunted Mansion."
   file_name: buddy_baker--grim_grinning_ghosts--blarsa_remix.mp3
   release_date: "2009 January"
   type: remix
   length: "03:09"
+
+- title: "Blarsa - Garden Party"
+  description: "I say, are these hash crumpets or fig rolls? May I? Ooo how strapping! I do love a dance."
+  file_name: blarsa--garden_party.mp3
+  release_date: "2009 January"
+  type: fun
+  length: "00:58"
+
+- title: "Blarsa - Untitled"
+  description: "Produced in 2008. First song we worked on."
+  file_name: blarsa--untitled.mp3
+  release_date: "unreleased"
+  type: original
+  length: "04:41"

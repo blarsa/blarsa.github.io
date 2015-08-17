@@ -7,19 +7,30 @@ layout: default
     <ul>
       <li>
         <a class="audio-title" href="{{ site.basurl }}/assets/audio/{{ audio_item.file_name }}">{{ audio_item.title }}</a>
+        {% if audio_item.description %}
+          <div class="audio-description">
+            <p>{{ audio_item.description }}</p>
+          </div>
+        {% endif %}
         <div class="meta">
+          {% if audio_item.release_date %}
           <div class="col">
             <div class="meta-title">RELEASE DATE</div>
             <div class="meta-content">{{ audio_item.release_date }}</div>
           </div>
+        {% endif %}
+        {% if audio_item.type %}
           <div class="col">
             <div class="meta-title">TYPE</div>
             <div class="meta-content">{{ audio_item.type }}</div>
           </div>
+        {% endif %}
+        {% if audio_item.length %}
           <div class="col">
             <div class="meta-title">LENGTH</div>
             <div class="meta-content">{{ audio_item.length }}</div>
           </div>
+        {% endif %}
         </div>
       </li>
     </ul>
