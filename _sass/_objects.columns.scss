@@ -1,0 +1,13 @@
+.col {
+  @include media-query($on-mobile) {
+    min-width: 100%;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  display: inline-block;
+
+  min-width: 100px;
+  margin-right: $spacing-unit;
+
+  text-align: center;
+}
