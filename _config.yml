@@ -1,6 +1,5 @@
 # Site settings
 title: blarsa
-email: "contact [at] blarsa.com"
 description: "two dudes who used to make music together"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blarsa.com" # the base hostname & protocol for your site
