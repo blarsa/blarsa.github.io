@@ -19,11 +19,12 @@
 
   text-align: center;
 
-  border-bottom: 3px solid darken($background-color, 14%) !important;
+  /*border-bottom: 3px solid rgba(255, 255, 255, 0.15);*/
+  border-bottom: none;
   border-radius: 6px 6px 0 0;
-  background-color: darken($background-color, 5%);
+  background-color: rgba(0, 0, 0, 0.09);
 
   &:hover {
-    background-color: darken($background-color, 4%);
+    background-color: rgba(0,0,0,.07);
   }
 }

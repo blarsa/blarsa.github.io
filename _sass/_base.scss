@@ -33,8 +33,15 @@ body {
   line-height: $base-line-height;
 
   color: $text-color;
-  background-color: $background-color;
+  background: $background-color; /* Old browsers */
+  background:    -moz-linear-gradient(top, #fea904 15%, #f24f5d 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#fea904), color-stop(100%,#f24f5d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fea904 15%,#f24f5d 100%); /* Chrome10+,Safari5.1+ */
+  background:      -o-linear-gradient(top, #fea904 15%,#f24f5d 100%); /* Opera 11.10+ */
+  background:     -ms-linear-gradient(top, #fea904 15%,#f24f5d 100%); /* IE10+ */
+  background:         linear-gradient(to bottom, #fea904 15%,#f24f5d 100%); /* W3C */
 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fea904', endColorstr='#f24f5d',GradientType=0 ); /* IE6-9 */
   -webkit-text-size-adjust: 100%;
 }
 
