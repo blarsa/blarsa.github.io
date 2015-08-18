@@ -6,6 +6,11 @@
 }
 
 .link-spacer {
+  @include media-query($on-mobile-port) {
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+
   font-weight: 700;
 
   padding-right: 8px;
