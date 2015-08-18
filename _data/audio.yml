@@ -39,27 +39,6 @@
   type: remix
   length: "03:05"
 
-- title: "Blarsa - Tonight"
-  description: "First project in Ableton Live. Inspired by the sounds of Justice and Wolfgang Gartner."
-  file_name: blarsa--tonight.mp3
-  release_date: "2009 July"
-  type: original
-  length: "04:00"
-
-- title: "Blarsa - One Night Stand"
-  description: "Originally started as a vocoder test."
-  file_name: blarsa--one_night_stand.mp3
-  release_date: "2009 June"
-  type: original
-  length: "03:41"
-
-- title: "Blarsa - You Make Me"
-  description: "Something from our soft side."
-  file_name: blarsa--you_make_me.mp3
-  release_date: "2009 June"
-  type: original
-  length: "03:45"
-
 - title: "Sarah Brightman ft Andrea Bocelli - Time To Say Goodbye (Blarsa Remix)"
   description: "What happens after one of us (Lars) drunkenly sings a song on Skype."
   file_name: sarah_brightman_ft_andrea_bocelli--time_to_say_goodbye--blarsa_remix.mp3
@@ -80,6 +59,27 @@
   release_date: "2009 November"
   type: russebuss
   length: "03:38"
+
+- title: "Blarsa - Tonight"
+  description: "First project in Ableton Live. Inspired by the sounds of Justice and Wolfgang Gartner."
+  file_name: blarsa--tonight.mp3
+  release_date: "2009 July"
+  type: original
+  length: "04:00"
+
+- title: "Blarsa - One Night Stand"
+  description: "Originally started as a vocoder test."
+  file_name: blarsa--one_night_stand.mp3
+  release_date: "2009 June"
+  type: original
+  length: "03:41"
+
+- title: "Blarsa - You Make Me"
+  description: "Something from our soft side."
+  file_name: blarsa--you_make_me.mp3
+  release_date: "2009 June"
+  type: original
+  length: "03:45"
 
 - title: "Shop Boyz - Party Like A Rock Star (Blarsa Remix)"
   description: "The result of installing a new DAW and playing with it over night."
