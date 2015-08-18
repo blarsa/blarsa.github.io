@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="audio">
-  {% for audio_item in site.data.audio %}
-    <ul>
+  <ul>
+    {% for audio_item in site.data.audio %}
       <li>
         <a class="audio-title" href="{{ site.basurl }}/assets/audio/{{ audio_item.file_name }}">{{ audio_item.title }}</a>
         {% if audio_item.description %}
@@ -27,6 +27,6 @@ layout: default
           </div>
         </div>
       </li>
-    </ul>
-  {% endfor %}
+    {% endfor %}
+  </ul>
 </div>
