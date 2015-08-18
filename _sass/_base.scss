@@ -2,21 +2,8 @@
  * Reset some basic elements
  */
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
-blockquote,
-pre,
-hr,
-dl,
-dd,
-ol,
-ul,
-figure {
+ul {
   margin: 0;
   padding: 0;
 }
@@ -50,19 +37,8 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
-blockquote,
-pre,
 ul,
-ol,
-dl,
-figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
@@ -76,45 +52,6 @@ img {
   max-width: 100%;
 
   vertical-align: middle;
-}
-
-
-
-/**
- * Figures
- */
-figure > img {
-  display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
-}
-
-
-
-/**
- * Headings
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300;
 }
 
 
