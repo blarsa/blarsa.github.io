@@ -13,24 +13,18 @@ layout: default
           </div>
         {% endif %}
         <div class="meta">
-          {% if audio_item.release_date %}
           <div class="col">
             <div class="meta-title">RELEASE DATE</div>
             <div class="meta-content">{{ audio_item.release_date }}</div>
           </div>
-        {% endif %}
-        {% if audio_item.type %}
           <div class="col">
             <div class="meta-title">TYPE</div>
             <div class="meta-content">{{ audio_item.type }}</div>
           </div>
-        {% endif %}
-        {% if audio_item.length %}
           <div class="col">
             <div class="meta-title">LENGTH</div>
             <div class="meta-content">{{ audio_item.length }}</div>
           </div>
-        {% endif %}
         </div>
       </li>
     </ul>
