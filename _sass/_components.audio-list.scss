@@ -22,17 +22,17 @@
 
   border-bottom: none;
   border-radius: 6px 6px 0 0;
-  background-color: rgba(0, 0, 0, .09);
+  background-color: rgba(40, 0, 0, .13);
 
   &:hover {
-    background-color: rgba(0,0,0,.07);
+    background-color: rgba(40, 0, 0, .10);
   }
 }
 
 .audio-description {
   padding: $spacing-unit / 3;
 
-  background-color: rgba(0, 0, 0, .14);
+  background-color: rgba(40, 0, 0, .19);
 
   p {
     font-size: 13px;
