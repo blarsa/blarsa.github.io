@@ -4,7 +4,7 @@ description: "two dudes who used to make music together"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blarsa.com" # the base hostname & protocol for your site
 newgrounds: "http://blarsa.newgrounds.com/"
-youtube: "http://youtube.com/blarsa/"
+youtube: "https://youtube.com/user/blarsa/"
 license: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 # Build settings
