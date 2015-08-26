@@ -3,9 +3,31 @@
   padding: $spacing-unit;
 
   text-align: center;
+
+  li {
+    @include media-query($on-mobile-xs) {
+      display: block;
+
+      margin-bottom: $spacing-unit / 2;
+    }
+
+    display: inline-block;
+
+    list-style-type: none;
+
+    ul {
+      @include media-query($on-mobile-xs) {
+        margin-bottom: $spacing-unit * 2;
+      }
+    }
+  }
 }
 
 .link-spacer {
+  @include media-query($on-mobile-xs) {
+    display: none !important;
+  }
+
   @include media-query($on-mobile-port) {
     padding-right: 1px;
     padding-left: 1px;
@@ -20,7 +42,11 @@
 }
 
 .contact {
-  margin-top: $spacing-unit / 2;
+  @include media-query($on-mobile-xs) {
+    margin-top: $spacing-unit + ($spacing-unit / 2);
+  }
+
+  margin-top: $spacing-unit;
 }
 
 .contact--at {
