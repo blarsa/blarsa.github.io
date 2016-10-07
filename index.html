@@ -8,9 +8,7 @@ layout: default
       <li>
         <a class="audio-title" href="{{ site.basurl }}/assets/audio/{{ audio_item.file_name }}">{{ audio_item.title }}</a>
         {% if audio_item.description %}
-          <div class="audio-description">
-            <p>{{ audio_item.description }}</p>
-          </div>
+          <p class="audio-description">{{ audio_item.description }}</p>
         {% endif %}
         <div class="meta">
           <div class="col">
