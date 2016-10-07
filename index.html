@@ -12,20 +12,20 @@ layout: default
         {% if audio_item.description %}
           <p class="audio-description">{{ audio_item.description }}</p>
         {% endif %}
-        <div class="meta">
+        <dl class="meta">
           <div class="col">
-            <div class="meta-title">RELEASE DATE</div>
-            <div class="meta-content">{{ audio_item.release_date }}</div>
+            <dt class="meta-title">RELEASE DATE</dt>
+            <dd class="meta-content">{{ audio_item.release_date }}</dd>
           </div>
           <div class="col">
-            <div class="meta-title">TYPE</div>
-            <div class="meta-content">{{ audio_item.type }}</div>
+            <dt class="meta-title">TYPE</dt>
+            <dd class="meta-content">{{ audio_item.type }}</dd>
           </div>
           <div class="col">
-            <div class="meta-title">LENGTH</div>
-            <div class="meta-content">{{ audio_item.length }}</div>
+            <dt class="meta-title">LENGTH</dt>
+            <dd class="meta-content">{{ audio_item.length }}</dd>
           </div>
-        </div>
+        </dl>
       </li>
     {% endfor %}
   </ul>
