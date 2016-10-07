@@ -4,6 +4,12 @@
 
   text-align: center;
 
+  ul {
+    @include media-query($on-mobile-xs) {
+      margin-bottom: $spacing-unit * 2;
+    }
+  }
+
   li {
     @include media-query($on-mobile-xs) {
       display: block;
@@ -14,12 +20,6 @@
     display: inline-block;
 
     list-style-type: none;
-
-    ul {
-      @include media-query($on-mobile-xs) {
-        margin-bottom: $spacing-unit * 2;
-      }
-    }
   }
 }
 
