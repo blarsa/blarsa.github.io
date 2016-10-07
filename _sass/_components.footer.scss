@@ -21,6 +21,10 @@
 
     list-style-type: none;
   }
+
+  a {
+    border-bottom: 1px solid $brand-color;
+  }
 }
 
 .link-spacer {
