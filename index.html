@@ -6,7 +6,9 @@ layout: default
   <ul>
     {% for audio_item in site.data.audio %}
       <li>
-        <a class="audio-title" href="{{ site.basurl }}/assets/audio/{{ audio_item.file_name }}">{{ audio_item.title }}</a>
+        <a class="audio-title" href="{{ site.basurl }}/assets/audio/{{ audio_item.file_name }}">
+          <h2>{{ audio_item.title }}</h2>
+        </a>
         {% if audio_item.description %}
           <p class="audio-description">{{ audio_item.description }}</p>
         {% endif %}
