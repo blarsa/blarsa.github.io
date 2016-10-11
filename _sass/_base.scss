@@ -70,7 +70,9 @@ a {
     color: darken($brand-color, 15%);
   }
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     color: $text-color;
   }
 }
